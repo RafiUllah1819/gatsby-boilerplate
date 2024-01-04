@@ -1,0 +1,16 @@
+import React from 'react';
+import Layout from '../components/layout';
+import { StaticImage } from 'gatsby-plugin-image';
+
+
+const AboutPage = () => (
+  <Layout>
+    <h1>About Us</h1>
+    <p>This is a simple about page for our Gatsby site.</p>
+    <StaticImage
+    src='../images/example.png'
+    />
+  </Layout>
+);
+
+export default AboutPage;
