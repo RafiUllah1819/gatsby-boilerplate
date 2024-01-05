@@ -14,6 +14,9 @@ const Header = () => (
         <li style={{ marginRight: '1rem' }}>
           <Link to="/contact">Contact</Link>
         </li>
+        <li style={{ marginRight: '1rem' }}>
+          <Link to="/blog">Blog</Link>
+        </li>
       </ul>
     </nav>
   </header>
